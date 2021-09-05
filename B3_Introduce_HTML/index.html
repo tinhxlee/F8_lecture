@@ -1,0 +1,63 @@
+<!-- Các thẻ html thông dụng
+1. table : để tạo bảng . Trong table có 2 thẻ con là thead và tbody 
+2. input  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY SHOP</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1 title="Đây là tiêu đề ">Xin chào tất cả các bạn</h1> <!--bên trong thẻ h1 gọi là atribute nghĩa là thuộc tính, đây là tui add thuộc tính 
+    title vào thẻ h1 nên khi dí chuột vào tiêu đề nó sẽ hiển thị nội dung trong ngoặc kép-->
+    <table>
+        <thead>
+            <th>STT</th>
+            <th>Họ và Tên</th>
+            <th>Điểm</th>
+        </thead>
+        <tbody>
+            <tr> <!--Thẻ này là table row,nó là thẻ dòng trong bảng-->
+                <td>1</td>
+                <td>Lê Trọng Tĩnh</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="text"> <!--Tạo ra một ô có thể nhập văn bản -->
+    <input type="checkbox"> <!--Tạo ra một ô vuông để đánh dấu tích-->
+    <!-- <input type="radio "> Tạo ra một ô tròn để đánh dấu tích -->
+    <!-- Ví dụ như ta sẽ tạo ra 3 ô và chỉ được chọn 1 trong 3 ô thôi thì ta dùng "name" -->
+    Nam
+    <input name="gender" type="radio"> <!--Khi trùng name , nó chỉ cho mình chọn 1 trong 3 cái thôi-->
+    Nữ
+    <input name="gender" type="radio">
+    Khác
+    <input name="gender" type="radio">
+    <div>
+        Tên đăng nhập
+        <input type="text">
+        Mật khẩu
+        <input type="password">
+    </div>
+    <div>
+        Đáp án 1 
+        <input name="answer" type="checkbox">
+        Đáp án 2 
+        <input name="answer" type="checkbox">
+        Đáp án 3 
+        <input name="answer" type="checkbox">
+        Đáp án 4
+        <input name="answer" type="checkbox">
+    </div>
+    <div>
+        <input type="submit" value="Đăng ký">
+    </div>
+    <h1 title="HTML, CSS từ zero đến Hero">Học về attribute trong HTML</h1>
+    <a href="https://fullstack.edu.vn/">Học HTML tại F8</a>
+    <img src="https://img.youtube.com/vi/0SJE9dYdpps/sddefault.jpg" width="250" title="Lập trình Javascript cơ bản">
+    
+</body>
+</html>

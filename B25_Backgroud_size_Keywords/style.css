@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-image: url(https://th.bing.com/th/id/R.083b9c39a165b4193cf083aca9268ef5?rik=R4hexLMPDqN%2bEA&pid=ImgRaw&r=0);
+    width: 100%;
+    height: 100vh;
+    background-size: contain; 
+    /* Contain chấp nhận khoảng trắng ngoài bức ảnh nhưng mà giữ hết các chi tiết của anh */
+    /* Cover thì ngược lại, nó sẽ bao trùm toàn bộ trang nhưng sẽ làm mất chi tiết ảnh */
+    background-repeat: no-repeat;
+}

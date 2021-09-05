@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>  /* This is Internal */
+        h1 {
+            color: brown;
+        }
+        a::after{
+            content: " ("attr(href)") ";
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"> <!--This is External-->
+</head>
+<body>
+    <a href="https://fullstack.edu.vn">Học lập trình</a>
+    <h1 style="color: brown ; font-size: 100px;" title="Tiêu đề">Xin chào các bạn </h1> <!--This is Inline-->
+    <ol>
+        Có 3 cách để sử dụng css 
+        <li class="l1">Internal : sử dụng hàm style để add css vào trong html</li>  
+        <li class="l2">External : sử dụng 1 file css riêng rồi add link vào html</li>
+        <li>Inline : Dùng astribute add thẳng vào thẻ muốn tạo hiệu ứng</li>
+    </ol>
+</body>
+</html>

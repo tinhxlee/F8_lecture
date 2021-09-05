@@ -1,0 +1,15 @@
+*{
+    font-size: 50px;
+}
+h1:hover{
+    color: brown;
+}
+.l3:active{
+     color: brown;
+}
+li:first-child{
+    color: crimson;
+}
+li:last-child{
+    color: violet;
+}

@@ -1,0 +1,8 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    border: chocolate 10px dashed;
+    padding: 50px ;
+    background-clip: padding-box;
+}

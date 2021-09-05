@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-image: url(https://www.hdnicewallpapers.com/Walls/Big/Dog/Cute_Big_Dog_Seating_on_Bench_HD_Animal_Wallpaper.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    border: 20px dashed rgb(75, 69, 69);
+    padding: 20px ;
+    background-origin: content-box;
+}
